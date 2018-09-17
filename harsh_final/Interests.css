@@ -1,0 +1,127 @@
+/*Harsh Patel
+ICS4U0
+Last Edited December 3, 2016
+Version 2.1*/
+ul#slide-out.side-nav.fixed {
+    background-color: #57ACF2;
+}
+h3 {
+  background-color: #57ACF2;
+  margin: auto;
+  text-align-last: center;
+  border-bottom: 2.5px solid;
+  border-bottom-color: beige;
+  text-indent: 200px;
+  font-size: 40px;
+  font-weight: 350;
+}
+
+
+/*Volunteer form to select volunteer oppurtunity Css Custom-----*/
+
+div#interest-block {
+  width: 50%;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 35%;
+  display: block;
+  margin-top: 75px;
+}
+
+input.select-dropdown {
+  width: 100%;
+  text-align-last: center;
+  outline: none;
+  font-weight: 450;
+}
+
+button#Search.btn.waves-effect.waves-light {
+  text-align: center;
+  display: block;
+  margin: auto;
+  font-weight: 500;
+}
+
+h4 {
+  text-align: center;
+  border-bottom: 2px solid;
+  border-bottom-color: whitesmoke;
+}
+
+h5 {
+  text-align: center;
+  font-weight: 600;
+  border-bottom: 2px solid;
+  border-bottom-color: whitesmoke;
+}
+
+/*Modal & Table Custom*/
+button#reset.waves-effect.waves-green.btn-flat {
+  position: absolute;
+  left: 30px;
+  border: 1px solid #ccc;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+button#volunteer-button.btn-flat {
+  border: 1px solid #ccc;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+button.modal-action.modal-close.waves-effect.waves-green.btn-flat {
+  border: 1px solid #ccc;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+div.modal-content {
+  width: 100%;
+  overflow: auto;
+}
+
+div#modal1.modal.open {
+  width: 75%;
+  margin-left: 20%;
+}
+
+table {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+table tr td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+/*Modal & Table Custom*/
+/*Volunteer form to select volunteer oppurtunity Css Custom-----*/
+
+/*Navbar Custom*/
+
+header,
+main,
+footer {
+  padding-left: 350px;
+}
+
+@media only screen and (max-width: 992px) {
+  header,
+  main,
+  footer {
+    padding-left: 0;
+  }
+}
+
+/*Navbar Custom End*/

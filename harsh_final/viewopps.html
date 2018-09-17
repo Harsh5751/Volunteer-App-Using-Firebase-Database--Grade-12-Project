@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View Opportunities</title>
+    <!--Mobile First-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!--Main CSS File-->
+    <link rel="stylesheet" type="text/css" href="viewopp.css"/>
+    <!--Sidebar CSS-->
+    <link rel="stylesheet" type="text/css" href="sidebar.css"/>
+    <!-- Compiled and minified CSS - Materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <script src="sweetalert-master/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="sweetalert-master/dist/sweetalert.css">
+</head>
+<body>
+  <div class="container">
+    <ul id="slide-out" class="side-nav fixed">
+        <div class="background">
+            <center><img src="../pictures/logo2.png"></center>
+        </div>
+        <li><a href="../harsh_final/Home.html">Home</a></li>
+        <li><a href="../harsh_final/Interests.html">Discover Opportunities</a></li>
+        <li class="active"><a href="viewopps.html">View My Opportunties</a></li>
+        <li><a href="../harsh_final/Admin.html">Create an Opportunity</a></li>
+        <li><a href="!#">Chat</a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="../index.html">Logout</a></li>
+    </ul>
+    <!--<div class="col s6 m7">-->
+    <!--  <h2 class="header">Opportunity Name</h2>-->
+    <!--  <div class="card horizontal">-->
+    <!--    <div class="card-stacked">-->
+    <!--      <div class="card-content">-->
+    <!--        <p>Information about the opportunity here</p>-->
+    <!--      </div>-->
+    <!--      <div class="card-action">-->
+    <!--        <a href="#">View</a>-->
+    <!--      </div>-->
+    <!--    </div>-->
+    <!--  </div>-->
+    <!--</div>-->
+  </div>
+  <!--Onload Script-->
+  <script src="onload.js"></script>
+  <script src="viewopp.js"></script>
+  <!--JQuery CDN-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <!-- Compiled and minified JavaScript - Materialize -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  <!--Firebase-->
+  <script src="https://www.gstatic.com/firebasejs/3.4.0/firebase.js"></script>  
+  <script>
+            // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyAHA79IrkWzTyY3T8Lh9xcTHVYupAarjRg",
+                authDomain: "cs-grade12.firebaseapp.com",
+                databaseURL: "https://cs-grade12.firebaseio.com",
+                storageBucket: "cs-grade12.appspot.com",
+                messagingSenderId: "548707728630"
+            };
+            firebase.initializeApp(config);
+    </script>
+</body>
+</html>

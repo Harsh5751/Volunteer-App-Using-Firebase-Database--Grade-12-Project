@@ -1,0 +1,60 @@
+h3 {
+  margin: auto;
+  text-align-last: center;
+  border-bottom: 2.5px solid;
+  border-bottom-color: beige;
+  text-indent: 220px;
+  font-size: 40px;
+  font-weight: 350;
+  background-color: #57ACF2;
+}
+
+ul#slide-out.side-nav.fixed {
+    background-color: #57ACF2;
+}
+
+div.carousel.initialized {
+  margin-left: 0%;
+  margin-top: -50px;
+  width: 100%;
+}
+
+img#pics {
+  width: 220%;
+  height: 60%;
+}
+
+div.card.blue-grey.darken-1 {
+  width: 60%;
+  margin-left: 30%;
+  font-size: 12px;
+  box-shadow: 10px 10px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+div.card.blue-grey.darken-2 {
+  width: 60%;
+  margin-left: 65%;
+  font-size: 12px;
+  box-shadow: 10px 10px;
+  text-align: center; 
+  margin-top: 0px;
+}
+
+div.card.blue-grey.darken-3 {
+  width: 60%;
+  margin-left: -5%;
+  margin-top: -200px;
+  font-size: 12px;
+  box-shadow: 10px 10px;
+  text-align: center;
+}
+
+div.carousel.initialized {
+    margin-left: 15%;
+    align-content: center;
+    
+    
+}
+

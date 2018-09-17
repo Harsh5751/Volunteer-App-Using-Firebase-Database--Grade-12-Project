@@ -1,0 +1,88 @@
+/*Harsh Patel*/
+/*Last Updated December 03, 2016*/
+/*ICS4U0*/
+/*Version 2.0*/
+
+/*Volunteer Upload Form Design*/
+ul#slide-out.side-nav.fixed {
+    background-color: #57ACF2;
+}
+div#upload-block {
+  width: 80%;
+  padding: 20px;
+  margin-top: 40px;
+  display: block;
+  margin-left: 25%;
+  border-color: whitesmoke;
+  border-radius: 5px;
+}
+
+input.validate {
+  width: 100%;
+  text-align: center;
+  text-align-last: center;
+}
+
+input#tiimings.validate {
+  text-align: center;
+  text-align-last: center;
+}
+
+h5 {
+  text-align: center;
+  font-weight: 500;
+  margin-top: -15px;
+  border-bottom: 2px solid;
+  border-bottom-color: whitesmoke;
+}
+
+h3 {
+  background-color: #57ACF2;
+  margin: auto;
+  text-align-last: center;
+  border-bottom: 2.5px solid;
+  border-bottom-color: beige;
+  text-indent: 220px;
+  font-size: 40px;
+  font-weight: 350;
+  /*background-color: #57ACF2;*/
+}
+
+/*div.sweet-alert.showSweetAlert.visible {
+  margin-left: -6%;
+}*/
+
+input#Location.validate {
+  margin-top: 36px;
+}
+
+input.select-dropdown {
+  width: 100%;
+  text-align-last: center;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+button#Submit.btn.waves-effect.waves-light {
+  text-align: center;
+  display: block;
+  margin: auto;
+  font-weight: bold;
+}
+/*Volunteer Upload Form Design End*/
+
+/*Navbar Custom*/
+header,
+main,
+footer {
+  padding-left: 350px;
+}
+
+@media only screen and (max-width: 992px) {
+  header,
+  main,
+  footer {
+    padding-left: 0;
+  }
+}
+/*Navbar Custom End*/

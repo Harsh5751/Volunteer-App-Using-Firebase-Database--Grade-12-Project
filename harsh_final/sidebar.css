@@ -1,0 +1,18 @@
+header, main, footer{
+    padding-left: 350px;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+
+}
+
+ul#slide-out.side-nav.fixed {
+    background-color: #57ACF2;
+}
+
+#item{
+    padding-left: 250px;
+}

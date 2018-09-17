@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Mobile First-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <!--Bootstrap CDNs-->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <!--Main CSS File-->
+        <link rel="stylesheet" type="text/css" href="login.css">
+        <!--Sweet Alert-->
+        <link rel="stylesheet" type="text/css" href="sweetalert-master/dist/sweetalert.css">
+    </head>
+    <body>
+        <div class="container">
+            <center><form id="login-form">
+                <img id="logo" src="logo%202.png">
+                <div class="form-group">
+                    <input type="email" class="form-control" id="email-login" placeholder="email address" style="text-align: center;">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="password-login" placeholder="password" style="text-align: center;">
+                </div>
+                <div class="form-group">
+                    <button type="button" class="btn" id="button-login">login</button>
+                </div>
+                <a id="register-button" href="#" data-toggle="modal" data-target="#register-modal"><p>Don't have an account?</p></a>
+            </form></center>
+            <!-- Modal -->
+            <div class="modal fade" id="register-modal" tabindex="-1" role="dialog" arialabelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Register</h4>
+                        </div>
+                        <div class="modal-body">
+                            <center><form id="register-form">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="fname-register" placeholder="full name" style="text-align: center;">
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email-register" placeholder="email address" style="text-align: center;">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="cemail-register" placeholder="confirm email address" style="text-align: center;">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="password-register" placeholder="password" style="text-align: center;">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="cpassword-register" placeholder="confirm password" style="text-align: center;">
+                                </div>
+                                <div class="btn-group">
+                                    <input type="age" class="form-control" id="age-register" placeholder="age" style="text-align: center;">
+                                </div><br/><br/>
+                                <!--<div class="btn-group">-->
+                                <!--    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+                                <!--        age <span class="caret"></span>-->
+                                <!--    </button>-->
+                                <!--    <ul class="dropdown-menu" id="age">-->
+                                <!--        <li><a href="#"></a></li>-->
+                                <!--    </ul>-->
+                                <!--</div>-->
+                                <!-- Single button -->
+                                <div class="btn-group" id="type-register">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        i am a <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Organizer</a></li>
+                                        <li><a href="#">Volunteer</a></li>
+                                    </ul>
+                                </div>
+                                
+                            </form></center>  
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" id="register-2">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!--Container Div End-->
+        <!--JQuery CDN-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <!-- Bootstrap - Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!--Firebase-->
+        <script src="https://www.gstatic.com/firebasejs/3.4.0/firebase.js"></script>
+        <script>
+            // Initialize Firebase
+            var config = {
+                apiKey: "AIzaSyAHA79IrkWzTyY3T8Lh9xcTHVYupAarjRg",
+                authDomain: "cs-grade12.firebaseapp.com",
+                databaseURL: "https://cs-grade12.firebaseio.com",
+                storageBucket: "cs-grade12.appspot.com",
+                messagingSenderId: "548707728630"
+            };
+            firebase.initializeApp(config);
+        </script>
+        <!--Local Javascript Document-->
+        <script src="login.js"></script>
+        <script src="register.js"></script>
+        <!--Sweet Alert-->
+        <script src="sweetalert-master/dist/sweetalert.min.js"></script>
+    </body>
+</html>
