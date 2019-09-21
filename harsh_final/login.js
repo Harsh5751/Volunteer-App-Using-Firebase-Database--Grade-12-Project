@@ -17,7 +17,7 @@ $("#button-login").on("click", function() {
     //if a user is authenticated, it will console log that the login was successful, and then redirect to a page
     if (user) {
       console.log("Login Successful")
-      window.open("harsh_final/Home.html","_self")
+      window.open("Home.html","_self")
     //else if a user is not authenticated, it will console log that the login was unsuccessful and will not proceed
     } else {
       console.log("Login Unsuccessful")
