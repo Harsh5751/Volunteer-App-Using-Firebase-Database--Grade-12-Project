@@ -71,7 +71,7 @@ function FirebaseAuthChanged(){
             showConfirmButton: false
         });
         //after success message, it will change pages to the main dashboard page
-      window.open("harsh_final/Home.html","_self")
+      window.open("Home.html","_self")
     // if the login is unsuccessful, it will run this code
     } else {
         //if the login is unsuccessful, it will log a console error stating the login was unsuccessful
